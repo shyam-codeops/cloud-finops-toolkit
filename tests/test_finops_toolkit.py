@@ -1,8 +1,9 @@
-"""
-Unit tests for Cloud FinOps Toolkit.
-"""
-
+import os
+import sys
 import unittest
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from finops_toolkit.core.models import VMMetrics, WasteType
 from finops_toolkit.analyzers.vm_rightsizing import VMRightsizingAnalyzer
 from finops_toolkit.analyzers.waste_detector import CloudWasteDetector
