@@ -131,7 +131,7 @@ docker run --rm cloud-finops-toolkit:latest
 
 **Shyam Singh**
 * GitHub: [@shyam-codeops](https://github.com/shyam-codeops)
-* Role: DevOps & DevSecOps Engineer
+* Role: DevOps Engineer
 
 ---
 
